@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var jsonobj=[
+                {
+                    "name":"DRISHTY",
+                    "Age":"21",
+                    "Gender":"F"
+            },
+            {
+               
+                "name":"DEV",
+                    "Age":"22",
+                    "Gender":"M" 
+            },
+            {
+                
+                "name":"DIMPAL",
+                    "Age":"20",
+                    "Gender":"F"
+            }
+        ];
+        for(var i=0;i<jsonobj.length;i++)
+        {
+document.write(jsonobj[i].name+"-");
+document.write(jsonobj[i].Age+"==");
+document.write(jsonobj[i].Gender+"</br>");
+
+        }
+        document.write(jsonobj[0].name);
+        document.write(jsonobj[1].Age);
+        document.write(jsonobj[2].Gender);
+        </script>
+    </head>
+</html>
